@@ -72,7 +72,11 @@
           glow
   
           # Bash
-          nodePackages_latest.bash-language-server 
+          nodePackages_latest.bash-language-server
+
+          #Back-End
+          docker-compose
+          beekeeper-studio
 
       # Editors
       helix 
@@ -83,6 +87,7 @@
       lazygit
       tokei
       firebase-tools
+      unrar
       # postman
 
       #### Proprietary
