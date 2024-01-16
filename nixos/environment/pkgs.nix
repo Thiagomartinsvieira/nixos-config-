@@ -77,6 +77,7 @@
           #Back-End
           docker-compose
           beekeeper-studio
+          bruno
 
       # Editors
       helix 
@@ -92,7 +93,6 @@
 
       #### Proprietary
       discord
-
       starship      
       redshift
       feh
