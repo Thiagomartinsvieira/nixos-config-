@@ -77,7 +77,6 @@
           #Back-End
           docker-compose
           beekeeper-studio
-          bruno
 
       # Editors
       helix 
@@ -90,7 +89,7 @@
       firebase-tools
       unrar
       # postman
-
+      postman
       #### Proprietary
       discord
       starship      
