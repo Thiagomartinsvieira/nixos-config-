@@ -136,7 +136,7 @@
       libqalculate
       lxde.lxsession
       maim
-      nodejs_18
+      nodejs_20
       pamixer
       pass-wayland
       rofi-pass-wayland
