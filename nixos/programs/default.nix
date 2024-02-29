@@ -6,6 +6,7 @@
     ./gnupg.nix
     ./hyprland.nix
     ./nano.nix
+    ./nix-ld.nix
     ./steam.nix
     ./xwayland.nix
   ];
