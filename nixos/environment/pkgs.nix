@@ -34,7 +34,6 @@
       figlet
 
       #### Browser
-      librewolf-wayland
       chromium
       google-chrome
 
@@ -88,6 +87,7 @@
       tokei
       firebase-tools
       unrar
+      jdk
       # postman
       postman
       #### Proprietary
