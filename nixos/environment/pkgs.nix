@@ -81,6 +81,7 @@
       helix 
       neovim
       vscodium
+      jetbrains.idea-community-bin
 
       # Tools
       lazygit
