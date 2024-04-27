@@ -107,6 +107,7 @@
       btop
       eza
       kitty
+      obsidian
  
       rofi-wayland
       wlr-randr
