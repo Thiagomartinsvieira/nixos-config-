@@ -88,7 +88,8 @@
       tokei
       firebase-tools
       unrar
-      jdk
+      # (pkgs.jdk17.override { enableJavaFX = true; })
+
       # postman
       postman
       #### Proprietary
