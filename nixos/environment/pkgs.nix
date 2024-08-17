@@ -18,7 +18,6 @@
       git
 
       ani-cli
-      mangal
       mangohud
 
       #### Vulkan
@@ -123,7 +122,7 @@
       wf-recorder
 
       dunst
-      gnome.adwaita-icon-theme
+      adwaita-icon-theme
       libnotify
       cryptsetup
       alacritty
@@ -134,7 +133,7 @@
       brightnessctl
       cliphist
       gimp
-      gnome.pomodoro
+      gnome-pomodoro
       gnuchess
       libqalculate
       lxde.lxsession

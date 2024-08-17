@@ -56,5 +56,20 @@
         
         exec awesome
       '';
+
+       # Beekeeper stdio (without wayland)
+      "${config.home.homeDirectory}/.local/share/applications/beekeeper-studio-no-wayland.desktop".text = ''
+         [Desktop Entry]
+         Name=Beekeeper Studio (No Wayland)
+         Exec=env XDG_SESSION_TYPE="" env QT_QPA_PLATFORM=""  env WAYLAND_DISPLAY="" env KITTY_ENABLE_WAYLAND="" beekeeper-studio %U
+         Terminal=false
+         Type=Application
+         Icon=beekeeper-studio
+         StartupWMClass=beekeeper-studio
+         X-AppImage-Version=4.6.2
+         Comment=An easy-to use SQL query editor and database UI for Mac, Windows, and Linux
+         MimeType=application/vnd.sqlite3;application/vnd.sqlite3;application/vnd.sqlite3;x-scheme-handler/redshift;x-scheme-handler/cockroachdb;x-scheme-handler/cockroach;x-scheme-handler/mariadb;x-scheme-handler/tidb;x-scheme-handler/mysql;x-scheme-handler/postgresql;x-scheme-handler/postgres;x-scheme-handler/psql;x-scheme-handler/sqlite;x-scheme-handler/sqlserver;x-scheme-handler/microsoftsqlserver;x-scheme-handler/mssql;
+         Categories=Development;
+      '';
      };
 }

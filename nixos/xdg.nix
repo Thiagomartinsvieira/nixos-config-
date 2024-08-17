@@ -3,6 +3,7 @@
     portal = {
       enable = true;
       wlr.enable = true;
+      # config.common.default = "*";
     };
     icons.enable = true;
     mime.defaultApplications = {
